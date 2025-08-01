@@ -16,5 +16,3 @@ COPY . /app/
 RUN chmod +x entrypoint.sh
 RUN python manage.py makemigrations
 RUN python manage.py migrate
-# ENTRYPOINT [ "./entrypoint.sh" ]
-# CMD ["python3", "./manage.py", "runserver"]
