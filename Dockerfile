@@ -14,3 +14,4 @@ COPY . /app/
 RUN chmod +x entrypoint.sh
 RUN python manage.py makemigrations
 RUN python manage.py migrate
+##this is for test
